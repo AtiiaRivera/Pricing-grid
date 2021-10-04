@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/05/12/27/sunflowers-317031_960_720.jpg");
+    color: #f7f32d;
+    font-size:x-large;
+  }
+  
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  
+  .panel {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    background: rgba(10, 10, 10, 0.5);
+  }
+  
+  .panel > * {
+    flex: 1;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .panel > *:last-child {
+    margin-bottom: 0;
+  }
+  
+  .panel:last-child {
+    margin-right: 0;
+  }
+  
+  .title h1 {
+    color: #ecfc5e;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .item {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+  }
+  
+  .price {
+    font-size: 40px;
+  }
+  
+  .footer {
+    align-self: flex-end;
+  }
+  
+  .button {
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+    background: #f7f32d;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
